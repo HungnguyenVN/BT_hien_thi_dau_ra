@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick = "showMassage1()"> Click here 1 </button>
+    <p id='messageDiv'>Text change</p>
+    <button onclick = "showMassage2()"> Click here 2</button>
+    <br>
+    <button onclick = "showMassage3()"> Click here 3</button>
+    <br>
+    <button onclick = "showMassage4()"> Click here 4</button>
+    <script>
+        function showMassage1(){
+            alert('Xin chao my World!')
+        }
+        function showMassage2(){
+            document.getElementById('messageDiv').innerHTML = 'Hello my boy';
+        }
+        function showMassage3(){
+            document.write('Xin chao!')
+        }
+        function showMassage4(){
+            console.log('Xin chao!')
+        }
+    </script>
+</body>
+</html>
